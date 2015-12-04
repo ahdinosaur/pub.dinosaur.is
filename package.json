@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/ahdinosaur/pub.dinosaur.is/issues"
   },
-  "homepage": "https://github.com/ahdinosaur/pub.dinosaur.is#readme"
+  "homepage": "https://github.com/ahdinosaur/pub.dinosaur.is#readme",
+  "dependencies": {
+    "scuttlebot": "^7.3.4"
+  }
 }
