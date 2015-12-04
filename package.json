@@ -5,7 +5,7 @@
   "description": "my public scuttlebot server",
   "main": "index.js",
   "scripts": {
-    "start": "npm run sbot server",
+    "start": "sbot server --port $PORT",
     "sbot": "sbot --port $PORT"
   },
   "engines": {
