@@ -1,0 +1,26 @@
+{
+  "name": "pub.dinosaur.is",
+  "private": true,
+  "version": "1.0.0",
+  "description": "my public scuttlebot server",
+  "main": "index.js",
+  "scripts": {
+    "start": "sbot server --port $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/pub.dinosaur.is.git"
+  },
+  "keywords": [
+    "ssb",
+    "ssbc",
+    "scuttlebot",
+    "patchwork"
+  ],
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.os)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/pub.dinosaur.is/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/pub.dinosaur.is#readme"
+}
