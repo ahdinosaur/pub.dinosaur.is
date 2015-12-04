@@ -16,6 +16,7 @@ my public [scuttlebot](https://github.com/ssbc/scuttlebot) server
 ```
 
 - `git remote add deploy dokku@pub.dinosaur.is:pub`
+- `cat ~/.ssh/id_rsa.pub | ssh root@pub.dinosaur.is "sshcommand acl-add dokku dinosaur"`
 - `git push deploy master`
 
 ## invite
