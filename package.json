@@ -7,6 +7,10 @@
   "scripts": {
     "start": "sbot server --port $PORT"
   },
+  "engine": {
+    "node": "^4.0.0",
+    "npm": "^3.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahdinosaur/pub.dinosaur.is.git"
