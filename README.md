@@ -10,7 +10,7 @@ my public [scuttlebot](https://github.com/ssbc/scuttlebot) server
 
 ```
 # dokku apps:create pub
-# dokku docker-options:add pub deploy "-p 8008"
+# dokku docker-options:add pub deploy "-p 127.0.0.1:8008:8008"
 # sudo -u dokku mkdir -p ~dokku/.data/pub
 # dokku docker-options:add pub deploy "-v /home/dokku/.data/pub:/app/data"
 # dokku docker-options:add pub run "-v /home/dokku/.data/pub:/app/data"
