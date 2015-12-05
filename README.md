@@ -11,9 +11,9 @@ my public [scuttlebot](https://github.com/ssbc/scuttlebot) server
 ```
 # dokku apps:create pub
 # dokku docker-options:add pub deploy "-p 8008"
-# sudo -u dokku mkdir -p ~dokku/data/pub
-# dokku docker-options:add pub deploy "-v /home/dokku/data/pub:/app/data"
-# dokku docker-options:add pub run "-v /home/dokku/data/pub:/app/data"
+# sudo -u dokku mkdir -p ~dokku/.data/pub
+# dokku docker-options:add pub deploy "-v /home/dokku/.data/pub:/app/data"
+# dokku docker-options:add pub run "-v /home/dokku/.data/pub:/app/data"
 # dokku config:set pub ssb_appname=pub pub_port=8008 pub_host=pub.dinosaur.is pub_pub=true pub_local=false pub_friends__dunbar=150 pub_friends__hops=3 pub_gossip__connections=5 pub_path=/app/data
 ```
 
